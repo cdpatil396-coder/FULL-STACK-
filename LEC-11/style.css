@@ -1,0 +1,37 @@
+span {
+    background-color: aqua;
+    font-weight: bold;
+    font-style: italic;
+    border: 2px solid black;
+    box-shadow: 5px 15px 15px #888;
+    text-shadow: 5px 4px 5px #888;
+
+
+}
+
+h1 {
+    background-color: beige;
+    color: red;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 5px 15px 10px #888;
+    text-shadow: 5px 4px 5px #888;
+}
+
+h4 {
+    background-color: aqua;
+    box-shadow: 5px 15px 10px #888;
+
+}
+
+h3 {
+    box-shadow: 5px 15px 10px #888;
+}
+/* caption{
+    background-color: aqua;
+} */
+
+/* div {
+        box-shadow: 5px 15px 10px #888;
+
+} */

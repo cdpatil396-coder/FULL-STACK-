@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+</head>
+<body>
+
+    <style>
+        /* h1 {
+            color: aqua;
+        } */
+
+        .cred {
+            color: red;
+        }
+
+         .cgreen {
+            color: green;
+        }
+
+        .cpurple {
+            color: purple;
+        }
+        
+        p {
+            background-color: yellow;
+        }
+
+        p {
+            background-color: beige !important;
+        }
+    </style>
+
+    <div class="header">
+        <h1 class="cred cgreen cpurple">CSS Specificity</h1>
+        <h2>CSS  Cascadet Algorithm : </h2>
+        <img src="image1.png" height="300">
+    </div>
+
+    <div>
+        <h2>
+            Specifity calculation : 
+        </h2>
+        <img src="image2.png" height="200" alt="">
+    </div>
+
+    <div>
+        <h2>Important: Tag is more important than Specificity</h2>
+
+         <span>Example</span>
+        <img src="image3.png" height="200" alt="">
+
+        <p style="background-color: red;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolor doloribus nemo accusantium illum ratione quas aliquid? Quia maiores molestiae sapiente explicabo commodi soluta placeat, voluptatum dolorum, quisquam laborum non eum voluptates sequi obcaecati error et ipsum harum culpa corporis illum quod minima eius recusandae. Nobis rem repellendus inventore, ipsa pariatur officiis quae laudantium maxime expedita, iste, soluta sequi cumque molestiae sed! A consequatur atque hic nisi porro voluptatem nostrum odit placeat, architecto, sint beatae recusandae itaque! Quas libero, itaque sint incidunt eligendi ullam, est, cupiditate sunt neque pariatur non veritatis alias distinctio provident et minima perspiciatis quasi atque voluptas.
+        </p>
+
+    </div>
+
+    <div>
+        <h2>Specificity Calculation : </h2>
+        <img src="image4.png" height="200" alt="">
+    </div>
+</body>
+</html>

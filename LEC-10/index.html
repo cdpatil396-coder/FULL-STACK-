@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio - Video | Media Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Audio - Video | Media Player Tags</h1>
+
+
+    <div>
+        <table>
+            <tr>
+                <th>
+                    <h2>Video tag</h2>
+                </th>
+                <th>
+                    <h2>Audio tag</h2>
+                </th>
+            </tr>
+
+            <tr>
+                <td> 1) video src="video.mp4"/video</td>
+                <td> 1) audio src="audio.mp3">/audio</td>
+            </tr>
+
+            <tr>
+                <td> 2)Controls : add video control like play , pause and volume</td>
+                <td> 2)Controls : add audio controls like play ,pause and volume</td>
+            </tr>
+
+            <tr>
+                <td> 3)autoplay : Automatically starts playing the video when the page loads</td>
+                <td> 3)autoplay : Automatically starts playing the video when the page loads</td>
+            </tr>
+
+            <tr>
+                <td> 4)Loop : repeats the the video once it ends.</td>
+                <td> 4)Loop : repeats the the video once it ends.</td>
+            </tr>
+
+            <tr>
+                <td> 5)poster : specifies on image to be displayed before the video starts playing</td>
+                <td> 5)poster : specifies on image to be displayed before the video starts playing</td>
+            </tr>
+
+            <tr>
+                <td> 6)width and height : specifies the dimensions of the video</td>
+                <td>
+                    6) Preload : Specifies if and how the audio should be loaded when the page loads.<div>
+                        ("auto", "metadata","none")</div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div>7)Example </div>
+                    <video src="video.mp4" width="155" height="155" controls loop muted poster="download.jpg"></video>
+                </td>
+                <td>
+                    <div> 7)Example</div>
+                    <audio src="audio.mp3" controls></audio>
+                </td>
+            </tr>
+        </table> <br><br>
+
+        <div>
+            <span>Preload Attribute :</span> <br><br> 1) <span>none</span> : This is the default value, it indicates
+            that the browser should not preload the audio file at all.
+        </div>
+        <div>
+            2) <span>metadata</span> : This value tells the browser to preload only the metdata of the audio file, such
+            as its duration and basic information about the audio. This can be useful if you want to display the audio
+            duration to the user without fully loading the audio data.
+        </div>
+        <div>
+            3) <span>auto</span> : This value instructs the browser to preload the entire audio file as much as possible
+            wihthout delaying the loading of other important page content. The browser will try to load the audio file
+            in the background so that it's ready to play when the user decides to start it.
+        </div>
+    </div>
+
+
+</body>
+
+</html>

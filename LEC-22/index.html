@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing </title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+
+        .box2 {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 10vh;
+            margin: 23px auto;
+            background-color: aquamarine;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 30vh;
+            margin: 23px auto;
+            background-color: aquamarine;
+            font-size: 16px;
+            min-height: 20vh ;
+        }
+
+        .container p {
+            font-size: 2em;
+        }
+
+        .container2 {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 50vh;
+            margin: 23px auto;
+            background-color: aquamarine;
+            font-size: 16px;
+        }
+
+        .container2 p {
+            font-size: 2em;
+        }
+
+
+        .mycont {
+            box-sizing: border-box;
+            background-color: yellow;
+            color: red;
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+             margin: 23px auto;
+            font-size: 36px;
+        }
+
+        span,
+        ol {
+            background-color: beige;
+            font-style: italic;
+            font-weight: bolder;
+            margin: 23px auto;
+        }
+
+        .unit {
+            font-size: 12px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 10vh;
+            margin: 23px auto;
+            background-color: aquamarine;
+        }
+
+    </style>
+    <h1>CSS Sizing Units :</h1>
+    <ol>
+        <h1> 1) px : pixel</h1>
+        <h1> 2) vw : view port width / virtual width</h1>
+        <h1> 3) vh : view port height / virtual height</h1>
+        <h1> 4) em : em means parent class chya doouble dili asali tr double count hote reference container</h1>
+        <h1> 5) rem : rem means root chya double font size dili jate font size</h1>
+        <h1>6) width : 100vmax</h1>
+        <h1>7) width : 100vmin</h1>
+    </ol>
+
+
+    <span class="box2">
+        This is another box <span>Note</span> : it is note center because it is Inline element ex : span
+    </span>
+
+    <div class="box">
+        This is box <span> Note </span> : it is center only if it is block level elements ex: div,h etc...
+    </div>
+
+    <div>
+
+
+        <div class="container">
+            <p>
+                <span>EM : this is the example of em </span>:
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ducimus quis eius accusantium itaque nam
+                explicabo! Molestias ratione accusantium cupiditate id earum ut repudiandae nulla obcaecati doloribus,
+                cum
+                tempora. Neque quia laborum labore omnis autem fugiat voluptatibus dolor mollitia ipsum sint, explicabo
+                praesentium sequi tempore doloremque ratione incidunt accusantium quos?
+
+                lorem999
+            </p>
+
+        </div>
+
+        <div>
+
+            <div class="container2">
+                <p>
+                    <span>REM : this is the example of rem</span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ducimus quis eius accusantium itaque
+                    nam
+                    explicabo! Molestias ratione accusantium cupiditate id earum ut repudiandae nulla obcaecati
+                    doloribus,
+                    cum
+                    tempora. Neque quia laborum labore omnis autem fugiat voluptatibus dolor mollitia ipsum sint,
+                    explicabo
+                    praesentium sequi tempore doloremque ratione incidunt accusantium quos?
+                </p>
+            </div>
+        </div>
+
+        <div class="mycont">
+            Example ; 1) vmin 2) vmax
+
+        </div>
+
+        <div class="unit">
+            <h1>
+                Different units of Size :
+            </h1>
+
+            <img src="image1.png" height="600px" >
+        </div>
+
+
+</body>
+
+</html>

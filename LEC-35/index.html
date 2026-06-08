@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More On CSS Selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;  
+        } */
+        /* 
+        .box::first-line{
+            color: yellow
+        } */
+
+        /* Advance on universal selector*/
+        /* .boxes * {
+            color: blue;
+            border: 2px solid black;
+        } */
+
+
+        /* Advance on Attribute Selector*/
+
+        /* [data-color="primary"] {
+            margin-top: 45px;
+        } */
+
+
+        /* Grouping */
+
+        /* p, a, .box{
+            font-size: 20px;
+        } */
+
+        /* Advance on Pseudo-selector */
+        /* .box:nth-child(even) {
+            background-color: red;
+        } */
+
+        /* .box:nth-last-child(1) {
+            background-color: red;
+        } */
+
+
+        /* The ::before Pseudo-element */
+        .boxes::before {
+            content: "Chetan is good guy.";
+            color: blue;
+        }
+
+        /* The ::After Pseudo-element */
+        .boxes::after {
+            content: "Sigma Course is also good.";
+            color: red;
+        }
+
+        ::selection {
+            color: white;
+            background-color: blue;
+
+        }
+
+        .box::first-letter {
+            color: purple;
+            background-color: yellow;
+            font-size: 30px;
+        }
+
+        input::placeholder {
+            color: blue;
+            /* font-size: 20px; */
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hey I am box 1</div>
+        <div class="box">Hey I am box 2</div>
+        <div class="box">Hey I am box 3</div>
+
+        <input type="text" placeholder="Type Your Name here">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+p{
+    background-color: aquamarine;
+}
+
+a{
+    background-color: red;
+}
+
+div{
+    background-color: yellow;
+}
+
+span {
+    background-color: pink;
+}
+td{
+    border: 2px solid black ; color: red; font-weight: bold ; text-align: center;
+}
+th{
+    border: 2px solid black;
+}
+table{
+    border: 2px solid black;
+}
+
+h3{
+    background-color: beige; color: red; text-align: center; font-style: italic; text-decoration: underline ;
+}

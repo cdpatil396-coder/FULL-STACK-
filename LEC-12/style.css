@@ -1,0 +1,10 @@
+h1{
+    background-color: aliceblue; color: red;
+}
+h2{
+    background-color: aliceblue; text-align: center; color: red;
+}
+
+div {
+    display: flex;
+}

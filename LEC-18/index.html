@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+
+<body>
+
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+
+        .box {
+            background-color: aqua;
+        }
+
+        .box1 {
+            color: yellow;
+            padding: 10px;
+            margin: 50px;
+            height: 200px;
+            width: 300px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        .box2 {
+            color: red;
+            padding: 10px;
+            margin: 50px;
+            height: 200px;
+            width: 300px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        #BoxModel {
+            color: red; 
+            margin: 40px; 
+            padding: 400px';          
+        }
+
+        .margincollapse{
+            color: red;
+            margin: 50px;
+            padding: 25px;
+            border: 1px solid black;
+            width: 400px;
+        }
+
+        h1 , h2 {
+            box-shadow: 5px 15px 15px #888;
+            text-shadow: 5px 5px 5px #888;
+        }
+    </style>
+    <div id="BoxModel">
+        <h1>CSS BOX MODEL MARGIN , PADDING , BORDER</h1>
+        <img src="image.png"  height="300">
+        <img src="image2.png" height="300">
+    </div>
+
+    <h2>Example</h2>
+    <div class="box box1 ">
+        I Am Box
+    </div>
+
+    <div class="box box2">
+        I Am another box
+    </div>
+    
+    <div class="margincollapse">
+        <h1>Margin Collapse Concept :
+        </h1>
+        <img src="image3.png" height="200">
+    </div>
+</body>
+
+</html>

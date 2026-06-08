@@ -1,0 +1,19 @@
+  p:first-child {
+      background-color: yellow;
+      color: red;
+  }
+
+  div>p {
+      background-color: white;
+      color: blue;
+
+  }
+
+  p {
+      box-shadow: 5px 15px 15px #888;
+  }
+
+  h1 {
+      box-shadow: 5px 15px 15px #888;
+
+  }

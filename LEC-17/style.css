@@ -1,0 +1,30 @@
+ /* 1) Element Selector : */
+span {
+    color: red;
+}
+
+/* 2) Class Selector */
+.ClassSelector {
+    color: yellow;
+}
+
+/* 3) ID Selector*/
+#idSelector {
+    color: blue;
+}
+
+/* 4) Child Selector */
+div > p {
+    color: aqua;
+}
+
+/* 5) Desendant Selector */
+div article {
+    color: brown;
+}
+
+/* 6) Universal Selector */
+/* * {
+    margin: 0;
+    padding: 0;
+} */

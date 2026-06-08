@@ -1,0 +1,26 @@
+table{
+    border: 2px solid black; color: ; 
+}
+
+th{
+    border: 2px solid black; background-color: antiquewhite;
+}
+
+tr{
+    border: 2px solid black;
+}
+
+td{
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center; color: red; background-color: aliceblue;
+}
+
+div{
+
+}
+span{
+    background-color: aqua; font-weight: bold;
+}

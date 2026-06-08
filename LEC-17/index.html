@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <style>
+        /* 1) Element Selector : */
+        span {
+            color: pink;
+        }
+
+        /* 2) Class Selector */
+        .ClassSelector {
+            color: yellow;
+ 
+        }
+
+        /* 3) ID Selector*/
+        #idSelector {
+            color: blue;
+ 
+        }
+
+        /* 4) Child Selector */
+        div>p {
+            color: aqua;
+         }
+
+        /* 5) Desendant Selector */
+        div article {
+            color: brown;
+ 
+        }
+
+        /* 6) Universal Selector */
+         * {
+            border: 1px solid black;
+            box-shadow: 5px 5px 15px #888;
+
+        } 
+
+        /* 7) Pseudo Selector */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: aqua;
+        }
+
+        p:first-child {
+            background-color: pink;
+        }
+
+        /* 8) Attribute Selector */
+        [data-x=a] {
+            background-color: yellow;
+        }
+
+        h1,h2 {
+            color: red; background-color: beige;
+        }
+
+        div ol {
+            color: green; 
+        }
+    </style>
+
+
+    <h1>CSS Selectors</h1>
+
+    <div>
+        <h2>Types of CSS selctors</h2>
+        <ol data-x="a">   
+            <li>Element Selector</li>
+            <li>Class Selector</li>
+            <li>ID Selector</li>
+            <li>Child Selctor</li>
+            <li>Desendant Selector</li>
+            <li>Universal Selector</li>
+            <li>Psudo Selector</li>
+            <li>Attribute Selector</li>
+        </ol>
+    </div>
+
+    <h1>1) Element Selector</h1>
+
+    <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rerum explicabo voluptate animi sequi nam,
+        est laudantium praesentium, sed in consequuntur blanditiis necessitatibus quaerat obcaecati dolore deleniti
+        itaque nulla maiores asperiores soluta quos doloremque magnam libero dolor. Modi laboriosam sapiente cum
+        excepturi, vitae pariatur sit cupiditate quis similique repellat vel quia ab corporis amet expedita quam in
+        beatae distinctio iusto, aut totam alias! Earum, fugiat? Reiciendis dolor expedita quisquam minus possimus
+        facere culpa asperiores voluptates velit dolore placeat aut temporibus quasi fugit dolorum accusantium voluptas,
+        vel, labore delectus! Suscipit vero accusamus asperiores non eum iste eaque fugit officiis a assumenda.
+    </span>
+
+    <h1>2) Class Selector</h1>
+
+    <div class="ClassSelector">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste ad itaque, quo accusantium voluptas.
+        Maxime quos dolorem ratione, accusantium obcaecati eligendi! Temporibus voluptatem magnam maiores vitae
+        provident inventore, aspernatur eveniet quae fugit architecto odio incidunt perferendis facilis, unde, facere
+        aut voluptate aperiam sit. Explicabo, sequi a tempora qui quas laudantium esse saepe iste iusto voluptas
+        dignissimos beatae est et vero maxime, temporibus minima totam quibusdam veritatis natus minus non officiis.
+        Earum sapiente dolorem aliquam reiciendis. Perspiciatis laboriosam inventore maxime. Aliquam accusamus
+        perspiciatis facilis minus vero. Illum accusamus nemo amet corporis, ipsam labore vel quaerat et iste minima
+        quas eos.
+    </div>
+
+    <h1>3) ID Selector</h1>
+    <div id="idSelector">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium adipisci eaque recusandae quas dolore velit,
+        dolor inventore voluptate nobis iusto quo est veniam sint quia iste! Ex necessitatibus dolor cupiditate aliquam
+        porro illum blanditiis pariatur asperiores? Ullam animi repellendus molestiae aperiam debitis ipsam tempora
+        repellat alias quo ea! Quasi, perspiciatis odio similique sint laboriosam voluptatibus, ipsa recusandae neque
+        officia architecto aspernatur in itaque quam ea. Porro reprehenderit a, impedit culpa facilis veritatis aliquid
+        amet ab harum ut soluta asperiores debitis ea officiis repellendus magnam at cumque molestias accusantium velit
+        hic dignissimos quidem sunt expedita! Distinctio quidem in perferendis excepturi deserunt.
+    </div>
+
+    <h1>4)Child Selector</h1>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci tempore, minus repellat eveniet
+            fugiat. Error ratione sapiente pariatur vitae ipsam neque expedita obcaecati quasi illo eos. Ratione
+            mollitia voluptatibus recusandae ad in natus molestias cupiditate! Eaque maiores quas voluptate labore
+            placeat, dolores facere praesentium aut. Accusamus, ex. Iusto, rem ea non a amet quae, modi commodi odit
+            culpa facere repellat dignissimos! Odio exercitationem doloribus, rem distinctio sed esse eos inventore iste
+            dolorum quas cupiditate accusantium, assumenda deleniti porro similique! Quae itaque, ex provident fuga
+            porro, impedit delectus ipsa suscipit dolore sit tempore! Ex odio voluptatibus quia aut laboriosam. Ea.
+        </p>
+    </div>
+
+    <h1>5) Desendant Selector</h1>
+    <div>
+        <p>
+        <article>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, enim error voluptatibus sint obcaecati illum
+            mollitia voluptate harum repellat laboriosam consequuntur iure earum id est recusandae fuga vitae, porro
+            reiciendis fugiat iste ea voluptatem. Ratione sit ullam, beatae natus quo deleniti harum rem dicta,
+            similique tempora cum id nostrum, hic laboriosam officiis illo repellendus? Sit corrupti non inventore
+            laborum cumque veritatis dicta, velit nobis doloribus quidem ut quia enim ratione illo. Ex iure iste eaque
+            similique, accusantium nulla sunt asperiores ipsam aperiam beatae praesentium. Ipsam quibusdam odio
+            accusantium provident! Pariatur aut eaque, laborum recusandae ipsam adipisci perspiciatis delectus est
+            beatae.
+        </article>
+        </p>
+    </div>
+
+    <h1>6) Universal Selector</h1>
+    <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas veniam veritatis itaque beatae, repellendus
+        voluptatem ipsam culpa vero commodi, eos, quia non cumque tempore! Sed consequuntur provident obcaecati itaque
+        nobis mollitia esse beatae neque, eaque, ullam vero, dolores minima illum blanditiis suscipit error placeat
+        quasi dolor nisi facere praesentium voluptate aperiam. Voluptas aspernatur cumque, aperiam alias hic molestiae
+        rem. Vel temporibus expedita commodi voluptate quis molestias quam, labore porro quae blanditiis illo asperiores
+        fuga facere laborum ut perspiciatis rerum dignissimos, nesciunt esse pariatur harum vitae corporis quasi. Harum
+        iusto autem, cupiditate similique voluptatibus quas consequatur repellat incidunt doloremque voluptates.
+        Assumenda?
+    </div>
+
+    <h1>7) Psudo Selector</h1>
+   
+    <a href="https://www.google.com">go to Google</a>
+    <a href="https://www.facebook.com">go to Facebook</a>
+
+    <main class="one">
+        <p>i am first para</p>
+        <p>i am second para</p>
+    </main>
+</body>
+
+</html>

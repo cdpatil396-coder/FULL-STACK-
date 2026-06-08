@@ -1,0 +1,9 @@
+h3{
+   color: red; text-align: center; background-color: bisque;
+}
+
+label{
+    color: red; text-align: center; 
+    background-color: beige ; 
+    border: 1px solid black;
+}
